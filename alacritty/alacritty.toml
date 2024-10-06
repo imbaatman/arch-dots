@@ -1,0 +1,50 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 2
+padding.y = 2
+
+decorations = "Buttonless"
+
+opacity = 0.7
+blur = true
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "IosevkaTerm Nerd Font"
+size = 14
+
+[colors]
+# Primary colors
+[colors.primary]
+background = "0x1F1F28"  # Dark background (kanagawa wave's main background)
+foreground = "0xDCD7BA"  # Brighter foreground text
+
+# Cursor colors
+[colors.cursor]
+text = "0x1F1F28"
+cursor = "0xDCD7BA"
+
+# Normal colors (inspired by Kanagawa Wave)
+[colors.normal]
+black = "0x1F1F28"
+red = "0xC34043"       # Wave red
+green = "0x76946A"     # Wave green
+yellow = "0xC0A36E"    # Wave yellow
+blue = "0x7E9CD8"      # Wave blue
+magenta = "0x957FB8"   # Wave magenta
+cyan = "0x6A9589"      # Wave cyan
+white = "0xDCD7BA"     # Light foreground
+
+# Bright colors (slightly more intense versions)
+[colors.bright]
+black = "0x2A2A37"
+red = "0xE82424"
+green = "0x98BB6C"
+yellow = "0xE6C384"
+blue = "0x7FB4CA"
+magenta = "0x938AA9"
+cyan = "0x7AA89F"
+white = "0xDCD7BA"

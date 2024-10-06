@@ -1,0 +1,69 @@
+map r reload
+map p print
+map i recolor
+map J zoom out
+map K zoom in
+map R rotate
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# One page per row by default
+set pages-per-row 1
+
+# stop at page boundaries
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+# zoom settings
+set zoom-min 10
+set guioptions ""
+
+set font "FiraCode 15"
+
+# zathurarc-kanagawa-wave
+set notification-error-bg       "#7C7C7C" # gray
+set notification-error-fg       "#E08E79" # red
+set notification-warning-bg     "#7C7C7C" # gray
+set notification-warning-fg     "#F0A700" # yellow
+set notification-bg             "#7C7C7C" # gray
+set notification-fg             "#A6E22E" # green
+
+set completion-group-bg         "#1A1B26" # dark
+set completion-group-fg         "#C0CAF5" # light
+set completion-bg               "#1A1B26" # dark
+set completion-fg               "#A6E22E" # green
+set completion-highlight-bg     "#7C7C7C" # gray
+set completion-highlight-fg     "#F0A700" # yellow
+
+# Define the color in index mode
+set index-bg                   "#1A1B26" # dark
+set index-fg                   "#C0CAF5" # light
+set index-active-bg             "#3E4451" # dark blue
+set index-active-fg             "#F0A700" # yellow
+
+set inputbar-bg                 "#3E4451" # dark blue
+set inputbar-fg                 "#C0CAF5" # light
+
+set statusbar-bg                "#1A1B26" # dark
+set statusbar-fg                "#A6E22E" # green
+
+set highlight-color             "#E8E6DF" # highlight
+set highlight-active-color      "#F0A700" # yellow
+
+set default-bg                  "#1A1B26" # dark
+set default-fg                  "#C0CAF5" # light
+set render-loading              true
+set render-loading-fg           "#1A1B26" # dark
+set render-loading-bg           "#1A1B26" # dark
+
+# Recolor book content's color
+set recolor                     true
+set recolor-lightcolor          "#1A1B26" # dark
+set recolor-darkcolor           "#C0CAF5" # light
+set recolor-keephue             true      # keep original color
+

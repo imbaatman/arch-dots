@@ -1,0 +1,17 @@
+[colors]
+background = #1F1F28
+border = #54546D
+selection_background = #2A2A37
+selection_foreground = #DCD7BA
+foreground = #DCD7BA
+highlight = #E46876
+highlight_background = #2A2A37
+
+[general]
+border-radius = 10
+border-width = 2
+prompt = Search Apps
+
+[window]
+width = 600
+height = 400
